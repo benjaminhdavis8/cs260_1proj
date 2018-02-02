@@ -22,6 +22,10 @@ body {
 	width: 600px;
 }
 
+.content {
+	padding: 10px;
+}
+
 /* {{{section}}} footer   -----------------------------*/
 
 footer p {
@@ -34,6 +38,7 @@ footer p {
 	height: 250px;
 	z-index: 10;
 	margin-left: 250px;
+	padding: 10px;
 }
 
 #footer-home {
@@ -41,7 +46,8 @@ footer p {
 	bottom: 0;
 	height: 250px;
 	z-index: 10;
-	margin-left: 0
+	margin-left: 0;
+	padding: 10px;
 }
 
 /* {{{sectoin}}} navegation ---------------------------*/
