@@ -1,0 +1,157 @@
+@import url ("https://fonts.googleapis.com/css?family=Encode+Sans");
+
+/* cholor scheme
+ * #25274d-dark blue
+ * #464866-gray blue
+ * #AAABB8-light gray
+ * #2E9CCA-sky blue
+ * #29648A-plad blue
+
+/* {{{section}}} general ------------------------------*/
+
+p {
+	max-width: 600px;
+}
+
+body {
+	font-family: 'Encode Sans';
+}
+
+/* {{{section}}} footer   -----------------------------*/
+
+footer p {
+	color: #464866;
+}
+
+#footer {
+	position: relative;
+	bottom: 0;
+	height: 250px;
+	z-index: 10;
+	margin-left: 250px;
+}
+
+/* {{{sectoin}}} navegation ---------------------------*/
+nav {
+	top: 0;
+	z-index: 1;
+	width: 100%;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #25274d;
+}
+
+nav li {
+	float: left;
+	text-decoration: none;
+	display: inline;
+}
+
+li a:hover {
+	background-color: #464866;
+	color: white;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* {{{section}}} Side menue ------------------------*/
+#menue {
+	background-color: #AAABB8;
+	text-align: left;
+	position: absolute;
+	padding: 0;
+	height: 200%;
+	width: 250px;
+}
+
+#menue hr {
+	color: #464866;
+}
+
+.thumb-nail {
+	margin-top: 20px;
+	margin-left: 10px;
+	padding: 20px;
+}
+
+.menue-inner {
+	margin-left:10px;
+	padding:20px;
+}
+
+/* {{{section}}} Body  -----------------------------*/
+#body {
+	margin-left: 250px;
+	position: relative;
+	min-height: 75%;
+}
+
+#body-home {
+	margin-left: 0px;
+	position: relative;
+	min-height: 75%;
+}
+
+/* {{{sectoin}}} Banner  ---------------------------*/
+#banner {
+	text-rendering: optimizeLegibility;
+	position: relative;
+	z-index: 2;
+	width: 100%;
+	float: left;
+	clear: both;
+	overflow: hidden;
+	background: #fafafa;
+	height:250px;
+	z-index: 5;	
+	padding: 0;
+	margin: 0;
+}
+
+.banner-outer {
+	width: 100%;
+	display: block;
+}
+
+.stage {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+.item {}
+
+.panel {
+	top: 50%;
+	position: absolute;
+	border: 0;
+	text-align: center;
+	z-index: 5;
+	transform: translateY(-50%);
+	left: 40%;
+}
+
+.panel_center {
+}
+
+.white-header {
+	color: #AAABB8;
+	text-shadow: -4px -5px 20px rgba(50,50,50,1);
+	color: white;
+	
+}
+
+.grayText {
+	color: #AAABBB;
+	text-shadow: -4px -5px 20px rgba(50,50,50,1);
+}
