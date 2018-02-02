@@ -17,6 +17,11 @@ body {
 	font-family: 'Encode Sans';
 }
 
+.blurb {
+	height: 300px;
+	width: 600px;
+}
+
 /* {{{section}}} footer   -----------------------------*/
 
 footer p {
