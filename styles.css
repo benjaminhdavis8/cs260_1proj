@@ -26,6 +26,41 @@ body {
 	padding: 10px;
 }
 
+/* {{{section}}} grid layout -------------------------*/
+
+.grid-layout {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+	grid-auto-rows: minmax(100px,auto);
+	background-color: #29648A;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.small-thumb-nail {
+	overflow: hidden;
+	height: 10%;
+	width: 10%;
+	float: left;
+}
+
+.profile-short {
+	background-color: white;
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+}
+
+.short-inner {
+	display: flex;
+	flex-direction: column;
+}
+
+.short-info {
+	font-size="8";
+}
+
 /* {{{section}}} footer   -----------------------------*/
 
 footer p {
@@ -89,7 +124,7 @@ li a {
 	text-align: left;
 	position: absolute;
 	padding: 0;
-	height: 200%;
+	height: 150%;
 	width: 250px;
 }
 
